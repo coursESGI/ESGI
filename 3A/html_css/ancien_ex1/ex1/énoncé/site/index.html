@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="cookies"/>	
+	<meta charset="UTF-8">
+	<title>Cookie</title>			
+    <script src="src/js/jquery-latest.min.js"></script>
+    <script src="src/js/script.js"></script>
+
+    <link rel="stylesheet" href="src/css/reset_stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="src/css/font.css" type="text/css">
+    <link rel="stylesheet" href="src/css/style.css" media="screen">    
+</head>
+
+<body>
+<!--
+	header
+-->
+  <div class="container container1">
+	<header>
+			<ul id="langues_connexion">
+				<li>
+					<span>Langue</span>
+					<img alt="fr" title="fr" src="src/images/icon-fr.gif"/>
+					<img alt="en" title="en" src="src/images/icon-gb.gif"/>
+				</li>
+
+				<li>
+					<img alt="icone" title="icone" class="icon_header" src="src/images/icon-user.png"/>
+					<a class="change_couleur" href="">Connexion</a>
+				</li>
+
+				<li>
+					<img alt="panier" title="panier" class="icon_header" src="src/images/icon-cart.png"/>
+					<a class="bold" href="">Mon panier (0)</a>
+				</li>
+				
+			</ul>
+		
+		<div class="clear"></div>
+		
+		<a id="logo">
+			<img alt="logo" title="logo" src="src/images/logo-fine-cookies.png"/>
+		</a>
+		
+		<nav class="font_fredoka">
+
+			<ul>
+				<li><a class="change_couleur" href="">accueil</a></li>
+				<li><a class="change_couleur" href="">nos biscuits</a></li>
+				<li class="no-img"><a class="change_couleur" href="">notre histoire</a></li>				
+				<li class="pos-right dernier_li no-img"><a class="change_couleur" href="">nous contater</a></li>
+				<li class="pos-right" id="li_de_droite"><a class="change_couleur" href="">secrets de fabrication</a></li>
+			</ul>
+		</nav>
+		
+		<div class="clear"></div>
+		
+		<div id="cookies_sur_planche">
+			<img alt="cookie" title="cookie" id="grand_cookie" class="pos-left" src="src/images/img-cookie-tour.png"/>
+			<div id="massiv_pepit" class="pos-right">
+				<h1 class="font_fredoka">Massiv pepit</h1>
+				<div class="font_cookie">Pour les amoureux du chocholat </div>
+				<p>
+					D&eacute;couvrez le cookie Massiv Pepit, avec sa recette unique aux p&eacute;pites de chocolat tellement g&eacute;n&eacute;reuses que vous ne pourrez plus vous en passer !
+				</p>
+				<img alt="péptites" title="péptites" class="pos-left" src="src/images/img-pepites.png"/>
+				<a class="pos-right font_fredoka" id="fleche_rouge">Miam j'en profite !</a>
+			</div>
+		</div>						
+	</header>
+  </div>
+<!--
+  SI BONS, SI CROUSTILLANTS, CRAQUEZ POUR NOS NOUVEAUX BISCUITS
+-->
+  <div class="container container2">
+	<section id="liste_cookies"> <!-- liste cookies -->
+		<h2 class="title font_fredoka">
+			<span>
+				Si bons, si croustillants, craquez pour nos nouveaux biscuits
+			</span>
+		</h2>
+		
+		<ul>
+			<li>
+					<img alt="cookie" title="cookie" src="src/images/prod-big-sodelicious.jpg"/>
+					<h2 class="font_fredoka">
+						So' delicious
+					</h2>
+					<div>
+						<span>23&euro;</span>
+						les 500g	
+					</div>
+					<p>
+						Totalement croustillants, le cookie so'delicious vous transportera dans cet &eacute;lan de saveur, laisse-vous...
+					</p>
+			</li>
+			
+			<li>	
+					<img alt="cookie" title="cookie" src="src/images/prod-big-naturespirit.jpg"/>
+					<h2 class="font_fredoka">
+						So' delicious
+					</h2>
+					<div>
+						<span>10&euro;</span>
+						les 500g	
+					</div>
+					<p>
+						Juste quelques p&eacute;pites de chocolat pour vous faire subtilment frissonner à chaque bouch&eacute;es.
+					</p>
+			</li>
+			
+			<li>	
+					<img alt="cookie" title="cookie" src="src/images/prod-big-butterandpecan.jpg"/>
+					<h2 class="font_fredoka">
+						So' delicious
+					</h2>
+					<div>
+						<span>15&euro;</span>
+						les 500g	
+					</div>			
+					<p>
+						Simple, bon et essentiel, le cookie Butter &amp; Pecan sans chocolat est id&eacute;al pour se faire plaisir en &eacute;t&eacute;.
+					</p>
+			</li>
+			
+			<li>	
+					<img alt="cookie" title="cookie" src="src/images/prod-big-cookiedingler.jpg"/>
+					<h2 class="font_fredoka">
+						So' delicious
+					</h2>
+					<div>
+						<span>30&euro;</span>
+						les 500g	
+					</div>
+					<p>
+						Le cookie lib&eacute;r&eacute; ! Ne pas le laisser tomber, il est si fragile. À d&eacute;guster du bout des doigts.
+					</p>
+			</li>
+		</ul>		
+	</section>
+  </div>	
+  <div class="clear"></div>
+<!--
+  Pourquoi sont-ils si savoureux ? Découvrez notre secret...
+-->
+  <div class="container container3">
+	<section id="bandeau_rouge"> <!-- bandeau rouge -->
+		<h3 class="font_fredoka">
+			Pourquoi sont-ils si savoureux ?
+			<span>D&eacute;couvrez notre secret.</span>
+		</h3>
+		
+		<ul>
+			<li>
+				<div>
+					<img alt="recettes uniques par un pâtissier" title="recettes uniques par un pâtissier" src="src/images/img-1-ingredients.jpg"/>
+					<span class="font_fredoka">1</span>
+				</div>
+				<h4 class="font_fredoka">Des ingr&eacute;dients soigneusement s&eacute;lectionn&eacute;s</h4>
+				<p>Fine Cookies prend le plus grand soin lors de la s&eacute;lection de la mati&egrave;re premi&egrave;re pour une qualit&eacute; irr&eacute;prochable du produit fini.</p>
+			</li>
+		
+			<li>
+				<div>
+					<img alt="cookie" title="cookie" src="src/images/img-2-recettes.jpg"/>
+					<span class="font_fredoka">2</span>
+				</div>
+				<h4 class="font_fredoka">Des recettes uniques depuis 1989</h4>
+				<p>Toutes nos recettes sont bas&eacute;es sur les &eacute;crits l&eacute;gendaires de Don Cook, le fondateur même du Cookie à Paris en 1989.</p>
+			</li>			
+		
+			<li>
+				<div>
+					<img alt="préparation" title="préparation" src="src/images/img-3-preparation.jpg"/>
+					<span class="font_fredoka">3</span>
+				</div>
+				<h4 class="font_fredoka">Une pr&eacute;pation 100 % à la main par nos patissiers</h4>
+				<p>Pour garantir le meilleur r&eacute;sultat possible nos patissiers diplôm&eacute;s pr&eacute;parent nos biscuits à la main. Du façonnage à la mise au four.</p>
+			</li>	
+							
+			<li id="dernier_li">
+				<div>
+					<img alt="pain d'épices" title="pain d'épices" src="src/images/img-4-merci.jpg"/>
+					<span class="font_fredoka">4</span>
+				</div>
+				<h4 class="font_fredoka">C’est surtout grâce à vous !</h4>
+				<p>Vous avez &eacute;lu Fine Cookies meilleures recettes de cookie en 2011. Grâce à vous, Fine Cookies est devenue la r&eacute;f&eacute;rence absolue du cookie dans le monde entier !</p>
+			</li>
+			<li id="fleches"></li>								
+		</ul>		
+	</section>
+  </div>	
+	<div class="clear"></div>	
+	<div id="fleche_bas"></div>	
+	<div class="clear"></div>
+<!--
+	Tout ce qu’il faut pour vous faire plaisir
+-->
+	<div class="container container4">
+		<section> <!-- dernier content -->
+			<ul>
+				<li class="gateaux_left_right">
+					<ul>
+						<li class="cookies_title">
+							<h1 class="font_fredoka">Tout ce qu'il vous faut pour vous faire plaisir</h1>
+						</li>
+						<li class="petits_cookies">
+							<img alt="cookie" title="cookie" src="src/images/prod-min-cacao-friese.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li class="petits_cookies">
+							<img alt="cookie" title="cookie" src="src/images/prod-min-marblepave.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li class="petits_cookies">
+							<img alt="cookie" title="cookie" src="src/images/prod-min-shellyform.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li id="gros_cookie">
+							<img alt="cookie" title="cookie" src="src/images/prod-big-sugar-pallet.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li class="petits_cookies">
+							<img alt="cookie" title="cookie" src="src/images/prod-min-marbreduo.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li class="petits_cookies">
+							<img alt="cookie" title="cookie" src="src/images/prod-min-straw.jpg"/>
+							<div class="pub">
+								<h5 class="font_fredoka">
+									Cookie x
+								</h5>
+								10&euro; les 500g
+							</div>
+						</li>
+						<li class="font_fredoka bouton_rouge">
+							<span>Voir le catalogue</span>
+						</li>
+					</ul>				
+				</li>
+<!--
+				Savourez en toute liberté
+-->
+				<li class="gateaux_left_right">
+					<ul>
+						<li id="bandeaux_title">
+							<h5 class="font_cookie">
+								<span>
+									Savourez en toute libert&eacute;
+								</span>
+							</h5>
+						</li>
+						<li class="trois_bandeaux">
+							<h5 class="font_fredoka">Livraison assur&eacute;e dans 80 pays</h5>
+							<img alt="étiquette" title="étiquette" src="src/images/img-etiquette-planete.png"/>
+							<a>Trouver un point relais</a>
+						</li>
+						<li class="trois_bandeaux">
+							<h5 class="font_fredoka">D&eacute;gustez-les chez vous en 24h chrono !</h5>
+							<img alt="étiquette" title="étiquette" src="src/images/img-etiquette-box.png"/>
+							<a>Commandez maintenant</a>
+						</li>
+						<li class="trois_bandeaux">
+							<h5 class="font_fredoka">100 points = -20% sur votre commande</h5>
+							<img alt="étiquette" title="étiquette" src="src/images/img-etiquette-ticket.png"/>
+							<a>Trouver un point relais</a>
+						</li>
+						<li id="espace">
+							<div class="clear"></div>
+						</li>
+						<li class="boutons_fb_twitter" id="bouton_facebook">
+							<a class="font_fredoka" href="">Rejoignez-nous sur Facebook</a>
+						</li>
+						<li class="boutons_fb_twitter" id="bouton_twitter">
+							<a class="font_fredoka" href="">Suivez-nous sur Twitter</a>
+						</li>					
+					</ul>				
+				</li>			
+			</ul>		
+		</section>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div id="logo_bas">
+		<img alt="logo" title="logo" src="src/images/logo-fine-cookies.png"/>
+	</div>
+<!--
+	footer
+-->
+	<div class="container container5">
+	<footer>
+		<section>
+			<article id="contacts">
+				<div>
+					<h6>
+						Venez nous rendre visite !
+					</h6>
+					<p id="adresse">
+						Fine Cookies Shop<br>
+						14 rue Thomas Knoll<br>
+						77830 Toshop
+					</p>
+					<p id="tel">
+						T&eacute;l : 01.00.82.85.09
+					</p>
+				</div>
+			</article>
+			<article id="ligne_du_bas">
+				<div>Fine Cookies 2012 - &copy; Copyright Living Tuts et Webdesigner Trends.</div>
+				Tutoriel Photoshop + Int&eacute;gration HTML5, CSS3 - Cr&eacute;ation : webdesignertrends.com - Site et marque fictive.
+			</article>
+		</section>
+	</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453478991 source:/home/gaetan/Bureau/ESGI/3A/C/exercices/tableaux_et_chaines/ex12/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

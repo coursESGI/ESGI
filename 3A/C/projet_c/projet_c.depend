@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1453285524 source:/home/gaetan/Bureau/ESGI/3A/C/projet_c/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<math.h>
+	"menu.h"
+	"choisir_regles_partie.h"
+
+1453286413 egles_partie.h"
+
+1453283287 /home/gaetan/Bureau/ESGI/3A/C/projet_c/menu.h
+
+1453285926 /home/gaetan/Bureau/ESGI/3A/C/projet_c/choisir_regles_partie.h
+
+1453286413 source:o:\home\gaetan\bureau\esgi\3a\c\projet_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"menu.h"
+	"choisir_regles_partie.h"
+
+1453283287 o:\home\gaetan\bureau\esgi\3a\c\projet_c\menu.h
+
+1453287402 o:\home\gaetan\bureau\esgi\3a\c\projet_c\choisir_regles_partie.h
+
+1453575813 source:/home/gaetan/Bureau/ESGI/3A/C/projet_c/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<time.h>
+	"choisir_regles_partie.h"
+
+1453288245 /home/gaetan/Bureau/ESGI/3A/C/projet_c/menu.h
+
+1453288298 /home/gaetan/Bureau/ESGI/3A/C/projet_c/choisir_regles_partie.h
+

@@ -1,0 +1,616 @@
+body{
+width: 100%;
+/* max-width: 960px;  l'écrire si on ne veut voir qu'une partie de l'écran, mais à ce moment, toutes les images sont à redimensionner et le psd n'est plus bon, prendre
+la taille maximale du site semble donc plus évident et j'appelle le contenu le conteneur principal de 960px */
+margin: 0 auto;
+font-family: 'Overlock',cursive;
+font-size: 12px;
+color: rgb(129, 128, 128);
+}
+
+a{
+text-decoration: none;
+cursor: pointer;
+}
+
+.bold{
+font-weight: bold;
+}
+
+.font_fredoka{
+font-family: 'Fredoka One',cursive;
+}
+
+.font_cookie{
+font-family: 'Cookie',cursive;
+}
+
+#container{
+width: 100%;
+}
+
+.title{
+text-align: center;
+}
+
+.clear{
+clear: both;
+}
+
+.pos-left{
+float: left;
+}
+
+.pos-right{
+float: right;
+}
+
+.change_couleur:hover{
+color: #0000FF !important;
+}
+
+.inline-block{
+display: inline-block;
+}
+
+.no-img{
+background: none !important;
+}
+
+/* header */
+
+.container1{
+background: url('../images/bg-header.gif') no-repeat center;
+}
+
+header{
+width: 960px;
+margin: 0 auto;
+position: relative;
+}
+
+#langues_connexion{
+float: right;
+padding-top: 20px;
+padding-bottom: 14px;
+z-index: 6000;
+}
+
+#langues_connexion li{
+float: left;
+padding-right: 20px;
+}
+
+#langues_connexion li img{
+padding-left: 5px;
+vertical-align: top;
+}
+
+#langues_connexion a{
+color: #e84743;
+}
+
+.icon_header{
+padding-left: 0 !important;
+padding-right: 5px !important;
+}
+
+nav{
+/*
+font-size: 14px;
+*/
+height: 55px;
+background: url("../images/ombre-nav.png") bottom center no-repeat;
+padding: 0 0 8px 0;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+nav ul{
+padding: 20px;
+background: url("../images/pat-menu.gif");
+border-radius: 4px;
+width: 920px;
+border-bottom: 1px solid #9B9D92;
+}
+
+nav ul li{
+background: url("../images/img-sep.png") no-repeat;
+background-position: right;
+margin: 0 14px 0 0;
+padding: 0 14px 0 0;
+display: inline-block;
+}
+
+nav ul li#li_de_droite{
+margin: 0 14px 0 195px;
+}
+
+nav ul li a{
+color: #29888c;
+}
+
+nav ul li.dernier_li{
+margin: 0;
+padding: 0;
+}
+
+#cookie{
+vertical-align: middle;
+}
+
+#logo{
+left: 391px;
+position: absolute;
+top: 10px;
+z-index: 5000;
+}
+
+#cookies_sur_planche{
+background: url("../images/img-planche.png") no-repeat 0 367px;
+height: 493px;
+}
+
+#grand_cookie{
+margin: 20px 0 0 60px;
+}
+
+#massiv_pepit{
+padding: 55px 0 0 20px;
+width: 515px;
+margin-top: 23px;
+}
+
+#massiv_pepit img{ /* pépites avec pourcentage de cacao */
+margin-top: 32px;
+}
+
+h1{
+font-size: 72px;
+color: #e84743;
+text-transform: uppercase;
+line-height: 40px;
+}
+
+h1+div{
+font-size: 50px;
+color: #eea914;
+padding-top: 9px;
+}
+
+#cookies_sur_planche p{
+font-size: 14px;
+font-weight: 400;
+margin: -5px 0 0 8px;
+line-height: 16px;
+}
+
+#fleche_rouge{
+display: block;
+width: 182px;
+height: 27px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+font-size: 13px;
+padding: 13px 0 0 50px;
+background: url(../images/btn-gocart.png) no-repeat;
+margin-top: 34px;
+margin-right: 51px;
+}
+
+/* container 2 (cookies avec leur prix et leur poids) */
+
+.container2{
+background: white;
+border-top: 1px solid #C6C7BF;
+}
+
+#liste_cookies{
+margin: 40px auto;
+width: 960px;
+}
+
+.title{
+background: url("../images/sep-titre-rouge.jpg") repeat-x center center rgba(0, 0, 0, 0);
+color: #e84743;
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.title span{
+background-color: #fff;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#liste_cookies ul li{
+width: 220px;
+float: left;
+margin-right: 20px;
+text-align: center;
+font-size: 14px;
+}
+
+#liste_cookies img:hover{
+transition-duration: 0.5s;
+transition-property: opacity;
+opacity: 0.5;
+}
+
+#liste_cookies img{
+transition-duration: 0.5s;
+transition-property: opacity;
+border-bottom: 1px solid #e84743;
+}
+
+h2{
+color: #e84743;
+font-size: 16px;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+#liste_cookies div{
+font-weight: 700;
+}
+
+#liste_cookies div span{
+background: #e84743;
+padding: 5px;
+color: white;
+}
+
+#liste_cookies p{
+padding-top: 16px;
+}
+
+/* conteneur 3 (bandeau rouge) */
+
+.container3{
+background: url("../images/bg-down-arrow.jpg") no-repeat scroll center top #e84743;
+height: 493px;
+}
+
+#bandeau_rouge{
+margin: 40px auto;
+width: 960px;
+}
+
+#bandeau_rouge h3{
+color: white;
+margin: 0 0 20px;
+text-align: center;
+font-size: 22px;
+padding-top: 35px;
+}
+
+#bandeau_rouge h3 span{
+color: #eea914;
+margin: 0 0 0 8px;
+text-transform: uppercase;
+}
+
+#bandeau_rouge ul{
+position: relative;
+}
+
+#bandeau_rouge ul li{
+float: left;
+width: 220px;
+font-size: 14px;
+text-align: center;
+color: white;
+margin-right: 20px;
+}
+
+#bandeau_rouge ul li div{
+position: relative;
+}
+
+#bandeau_rouge div img+span{
+color: white;
+position: absolute;
+background: url("../images/icon-bulle-num.png") no-repeat center;
+width: 39px;
+height: 39px;
+font-size: 18px;
+z-index: 5000;
+left: 95px;
+top: 183px;
+padding-top: 17px;
+text-align: center;
+}
+
+#bandeau_rouge h4{
+margin: 25px 0 15px;
+font-size: 16px;
+width: 229px;
+}
+
+#bandeau_rouge #dernier_li{
+margin-right: 0;
+}
+
+#fleche_bas{
+background: url("../images/img-down-arrow-red.jpg") no-repeat scroll center bottom #fff;
+height: 11px;
+}
+
+/* conteneur 4 */
+
+/*partie de gauche */
+
+.container4 li{
+float: left;
+}
+
+.container4{
+margin-top: 10px;
+}
+
+.container4 section{
+width: 960px;
+margin: 0 auto;
+}
+
+.cookies_title{
+margin-bottom: -22px;
+}
+
+.container4 h1{
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.gateaux_left_right{
+float: left;
+width: 50%;
+}
+
+.petits_cookies{
+border-bottom: 1px solid #e84743;
+color: white;
+height: 139px;
+margin: 0 20px 20px 0;
+overflow: hidden;
+text-align: center;
+width: 140px;
+position: relative;
+cursor: pointer;
+}
+
+#gros_cookie{
+border-bottom: 1px solid #e84743;
+color: white;
+height: 299px;
+margin: 0 20px 20px 0;
+overflow: hidden;
+text-align: center;
+width: 300px;
+position: relative;
+cursor: pointer;
+}
+
+/* pub cookies */
+
+.pub{
+position: absolute;
+color: white;
+font-size: 14px;
+height: 53px;
+overflow: hidden;
+padding: 10px 0 0;
+transition-duration: 0.5s; /* pour fermer  lentement */
+transition-property: top;
+}
+
+.petits_cookies .pub{
+background: url("../images/bg-hover-product-min.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+top: 140px;
+width: 140px;
+}
+
+#gros_cookie .pub{
+background: url("../images/bg-hover-product-big.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+top: 300px;
+width: 300px;
+}
+
+#gros_cookie:hover .pub{
+transition-duration: 0.5s; /* pour monter lentement */
+transition-property: top;
+top: 246px;
+}
+
+.petits_cookies:hover .pub{
+transition-duration: 0.5s; /* pour monter lentement */
+transition-property: top;
+top: 90px;
+}
+
+.pub h5{
+font-size: 16px;
+}
+
+.bouton_rouge{
+float: right !important;
+background: url("../images/btn-voir-catalogue.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+color: white;
+font-size: 12px;
+height: 20px;
+margin: 0 20px 0 0;
+padding: 6px 0 0;
+text-align: center;
+width: 140px;
+}
+
+.bouton_rouge span{
+display: block;
+margin-top: 2px;
+width: 100%;
+}
+
+/* partie de droite */
+
+#bandeaux_title{
+float: none;
+margin-top: 11px;
+}
+
+h5.font_cookie{
+background: url("../images/sep-titre-orange.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+color: #eea914;
+font-size: 35px;
+margin: 0 0 10px;
+text-align: center;
+}
+
+h5 span{
+background: white;
+padding: 0 10px;
+}
+
+.trois_bandeaux{
+background: url("../images/bg-etiquette.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+display: block;
+float: left;
+height: 341px;
+margin: 0 20px 0 0;
+padding: 0 5px;
+position: relative;
+text-align: center;
+width: 129px;
+}
+
+.trois_bandeaux h5{
+color: #29888c;
+font-size: 13px;
+line-height: 18px;
+margin-top: 60px;
+margin-bottom: 30px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.trois_bandeaux a{
+display: block;
+position: absolute;
+bottom: 50px;
+text-align: center;
+color: #e84743;
+text-decoration: underline;
+width: 130px;
+}
+
+.trois_bandeaux a{
+cursor: pointer;
+}
+
+#espace{
+float: none;
+}
+
+#espace div{         /* espace entre les boutons facebook et twitter et les bandeaux */
+margin-bottom: 20px;
+}
+
+.boutons_fb_twitter a{
+color: white;
+width: 120px;
+height: 55px;
+padding: 30px 20px 0 80px;
+border-radius: 4px;
+margin: 0 20px 0 0;
+font-size: 13px;
+text-transform: uppercase;
+display: block;
+}
+
+#bouton_facebook a{
+background: url("../images/icon-facebook.png") no-repeat 25px 20px #3b5998;
+}
+
+#bouton_twitter a{
+background: url(../images/icon-twitter.png) no-repeat 20px 25px #00aced;
+}
+
+#bouton_facebook a:hover{
+cursor: pointer;
+}
+
+/* bande au-dessus du footer */
+
+#logo_bas{
+margin-top: 50px;
+text-align: center;
+background: url("../images/img-planche-footer.jpg") repeat-x 0 49px;
+z-index: 5000;
+height: 129px; /* taille du logo */
+}
+
+/* footer */
+
+.container5{
+/*background: */
+margin-top: -50px;
+width: 100%;
+background: url("../images/bg-rayures.jpg") repeat;
+}
+
+footer{
+width: 960px;
+margin: 0 auto;
+}
+
+#contacts{
+background: url("../images/bg-ombre-address.png") bottom center no-repeat;
+text-align: center;
+width: 300px;
+height: 212px;
+margin: 0 auto;
+}
+
+#contacts div{
+height: 200px;
+width: 300px;
+background: url("../images/pat-menu.gif") repeat
+}
+
+#contacts h6{
+padding-top: 70px;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+#adresse{
+padding-top: 28px;
+font-size: 14px;
+}
+
+#tel{
+padding-top: 12px;
+font-size: 14px;
+}
+
+#ligne_du_bas{ /* deux lignes du bas */
+padding-top: 26px;
+padding-bottom: 31px;
+text-align: center;
+line-height: 14px;
+}
+
+#ligne_du_bas div{
+font-weight: 900;
+}
+
+#fleches{
+position: absolute;
+width: 554px !important;
+height: 36px;
+background: url(../images/sprite-fleches.png) no-repeat;
+top: 184px;
+left: 180px;
+}

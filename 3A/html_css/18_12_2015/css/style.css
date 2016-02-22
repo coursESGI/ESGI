@@ -1,0 +1,131 @@
+.center{											/* générale */
+	text-align: center;
+}
+
+.row{
+	margin: 0;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.slim-joe{
+	font-family: "slim-joe";
+}
+
+h1, h2, h3, h4, h4, h5, h6{
+	text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: "helvetika";
+}
+
+body{
+	font-family: helvetika;
+}
+
+.container_logo{                                   /* logo */
+	position: relative;
+}
+
+#plume_seule, #logo_vide, #line{
+	position: absolute;
+}
+
+#line{
+	left: 29px;
+    top: 54px;
+    transition: 1s transform;
+}
+
+#plume_seule{
+	left: -400px;
+	transition: 0.5s transform;
+}
+
+.container_logo:hover #plume_seule{
+	transform: translate3d(410px, 8px, 0);
+}
+
+.container_logo:hover #line{
+	transform: scale(0.5) rotate(360deg) translate3d(-24px, 0, 0);
+}
+
+.container_logo:hover #logo_vide{
+	animation : change_color_logo 4s;
+/*
+	animation : change_width_logo 0.5s alternative;
+*/
+}
+
+/*
+div{
+	animation : change_width_logo 0.5s infinite;
+}
+*/
+
+@keyframes change_color_logo{
+	from {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	75% {background-color: red;}
+    to {background-color: transparent;}
+}
+
+header{																/* header */
+	background: url('../imgs/bg_header.jpg') center fixed no-repeat;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	color: white;
+	height: 100vh;
+	margin-bottom: 35px;
+}
+
+#nom{
+	padding-left: 117px;
+    padding-top: 25px;
+}
+
+#fleche_bottom{
+	padding-top: 40px;
+}
+
+h2{													/* about */
+	padding-bottom: 20px;
+}
+
+#about article{
+	padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+	padding-bottom: 40px;
+}
+
+.middle{
+width:1362px;         /* à récupérer en javascript pour centrer verticalement */
+height:646px;
+position:absolute;
+left:50%;
+top:50%;
+margin:-323px 0 0 -681px;
+}
+
+.photos{
+	margin-bottom: 30px;
+}
+
+.photos img{
+	max-width: 100%;
+}
+
+#what_we_do{													/* what we do */
+	
+}
+
+hr{
+	height: 12px; 
+	border: 0; 
+	box-shadow: inset 0 10px 12px -12px rgba(0, 0, 0, 0.5);
+}

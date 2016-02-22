@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1453103535 source:/home/gaetan/Bureau/ESGI/3A/C/exercices/ex_18_12_2015/exercice_5/main.c
+	<stdio.h>
+	<stdlib.h>
+

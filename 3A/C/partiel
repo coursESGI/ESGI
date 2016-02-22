@@ -1,0 +1,18 @@
+Jeu du pendu
+
+joueurs : A (joueur), B (joueur), 
+c, d, e (parieurs, miseurs)
+
+A contre B
+
+A et B peuvent choisir leur nom
+
+jeu en plusieurs parties
+
+pari en cours de partie ou avant la partie
+
+parier sur l'un ou l'autre (pari moins gagnant si A a plus de parties gagnées que B 
+et s'il a déjà presque trouvé le mot).
+
+Enregistrer les résultats dans un fichier pour pouvoir reprendre la partie commencée la veille 
+
